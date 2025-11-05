@@ -1,11 +1,7 @@
-# .gitignore
-# Environment
 .env
 .venv/
 venv/
 ENV/
-
-# Python
 __pycache__/
 *.py[cod]
 *.so
@@ -13,8 +9,6 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-
-# Output and temp data
 output/
 data/
 data/*.fits
@@ -24,26 +18,17 @@ summary.py
 *.tar.gz
 *.tmp
 *.log
-
-# Notebooks
 *.ipynb
 .ipynb_checkpoints/
-
-# OS
 .DS_Store
 Thumbs.db
-
-# IDEs and editors
 .idea/
 .vscode/
 *.swp
-
-# Jupyter runtime
 .jupyter/
-
-# Tests and coverage
 .coverage
 htmlcov/
 .tox/
 pytest_cache/
 .cache/
+models/xgboost/*.yaml
